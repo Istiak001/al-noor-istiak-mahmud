@@ -1,0 +1,204 @@
+/* Universal CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: white;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #0d6efd;
+}
+.head-line{
+    color: #ff4a57;
+}
+.color-ex{
+    color: #ff4a57;
+}
+.clikable-btn{
+    color: white;
+    border-radius: 27%;
+    padding: 12px 15px;
+    border: 2px solid #ff4a57;
+    transition: .5s;
+}
+.clikable-btn:hover{
+    color: white;
+    background-color: #ff4a57;
+}
+.top_btn{
+    background-color: white;
+    color: #ff4a57;
+    position: fixed;
+    top: 30%;
+    right: 10px;
+    /* left: 0; */
+    width: 50px;
+    height: 45px;
+    /* z-index: 1030;
+    display: inline; */
+    padding: 8px 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: .5s;
+}
+.top_btn:hover{
+    color: white;
+    background-color: #ff4a57;
+}
+/* Navication Section CSS */
+/* .navbar-fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+} */
+.navi-bar{
+    background-color: #576574;
+    color: white;
+}
+.nav-link{
+    transition: .5s;
+    font-weight: bold;
+    color: white;
+}
+.nav-link:hover{
+    color: #ff4a57;
+}
+.fa-bars{
+    color: #ff4a57;
+    transition: .5s;
+}
+.fa-bars:hover{
+    color: white;
+}
+.navbar-toggler{
+    background-color: white;
+    transition: .5s;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    color: white;
+    background-color: #ff4a57;
+}
+.logof{
+    background-color: #ff4a57;
+    padding: 3px 4px;
+}
+.logol{
+    background-color: white;
+    color: #ff4a57;
+    padding: 3px 4px;
+}
+/* Header Section CSS */
+.hellow-img{
+    width: 55%;
+    height: 55%;
+    border-radius: 50%;
+    border: 3px solid tomato;
+}
+/* About Me Section CSS */
+.about{
+
+}
+.smaily-i{
+    width: 55%;
+    height: 55%;
+    border-radius: 50%;
+}
+/* My Survicess Section CSS */
+.s-card{
+    background-color: #222f3e;
+    transition: 0.5s;
+    /* box-shadow: 5px -5px 4px -1px white;
+    -webkit-box-shadow: 5px -5px 4px -1px white;
+    -moz-box-shadow: 5px -5px 4px -1px white; */
+}
+.s-card:hover{
+    background-color:#8395a7;
+}
+/* Skill's Section CSS */
+.p-b{
+    background-color: #222f3e;
+    margin: 10px 0px;
+}
+.pb-inner{
+    background-color: whitesmoke;
+}
+.hire_btn a{
+    color: white;
+    border-radius: 27%;
+    padding: 12px 15px;
+    border: 2px solid #ff4a57;
+    transition: .5s;
+}
+.hire_btn a:hover{
+    background-color: #ff4a57;
+}
+.social_link a{
+    color: white;
+    /* background-color: #ff4a57; */
+    border: 2px solid #ff4a57;
+    /* display: inline-block; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 0px 3px;
+}
+.social_link a:hover{
+    color: #ff4a57;
+    background-color: white;
+    border: 2px solid white;
+}
+/* Contact Section CSS */
+.input-g label{
+    color: #ff4a57;
+    font-weight: bold;
+}
+.input-g input{
+    background-color: #222f3e;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+.input-g textarea{
+    background-color: #222f3e;
+    outline: none;
+    border: none;
+    width: 90%;
+    border-radius: 5px;
+    color: white;
+    resize: vertical;
+}
+button[type="submit"]{
+    background-color: #222f3e;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.submit-btn:hover{
+    color: #ff4a57;
+}
+#my-form-status{
+
+}
+/* Footer section CSS */
+.footer_text a{
+    color: #ff4a57;
+}
